@@ -1,0 +1,23 @@
+ENV['NODE_BINARY'] = 'node'
+ENV['NODE_PATH'] = File.expand_path('../rn/node_modules', __dir__)
+
+require_relative '../rn/node_modules/react-native/scripts/react_native_pods'
+
+platform :ios, '14.0'
+prepare_react_native_project!
+
+target 'MeraSuperApp' do
+  use_react_native!(
+    :path => '../rn/node_modules/react-native',
+    :app_path => File.expand_path('..', __dir__),
+    :hermes_enabled => false
+  )
+
+  pod 'RNGestureHandler', :path => '../rn/node_modules/react-native-gesture-handler'
+  pod 'RNScreens', :path => '../rn/node_modules/react-native-screens'
+  pod 'react-native-safe-area-context', :path => '../rn/node_modules/react-native-safe-area-context'
+end
+
+post_install do |installer|
+  react_native_post_install(installer)
+end

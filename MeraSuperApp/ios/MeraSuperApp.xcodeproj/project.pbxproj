@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BE02C9AFBCF32ED2C56B22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0251BC9CE05753C9E3C79BA3 /* Assets.xcassets */; };
+		1A04134FBE80645F3BD3F9D9 /* MeraSuperAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255D2E28F2A21E92D3CB52E /* MeraSuperAppApp.swift */; };
+		2B719AA1A93453FF6232D818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2338F2E4970B90820242A335 /* Foundation.framework */; };
+		36B76DDEAA194A9F56F94ED3 /* RNMiniAppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CC6E84AB44D5A34B7015A9 /* RNMiniAppContainer.swift */; };
+		75CD82EFC74D10233A7E467A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDADA14BE5E163BCC22D410 /* AppDelegate.swift */; };
+		7A315203313A17610CE75BC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9960EF609EEFFB66B83E73 /* ContentView.swift */; };
+		A2CDF14C50B7BC40D8AF03A8 /* libPods-MeraSuperApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B63ED1512643AA19AB9FB8F /* libPods-MeraSuperApp.a */; };
+		EE91D29429BC99E657AD3E7E /* RNEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B100BE939607659BE8FA6B /* RNEngine.swift */; };
+		FD11E12D849C1F04EFF3DCC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACB5C8E39A3B7A33601EB21 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0251BC9CE05753C9E3C79BA3 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B63ED1512643AA19AB9FB8F /* libPods-MeraSuperApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeraSuperApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9960EF609EEFFB66B83E73 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2338F2E4970B90820242A335 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2CDADA14BE5E163BCC22D410 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50B100BE939607659BE8FA6B /* RNEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RNEngine.swift; sourceTree = "<group>"; };
+		5255D2E28F2A21E92D3CB52E /* MeraSuperAppApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MeraSuperAppApp.swift; sourceTree = "<group>"; };
+		7DC7F19B9454418FC4FCF6A6 /* MeraSuperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeraSuperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CC6E84AB44D5A34B7015A9 /* RNMiniAppContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RNMiniAppContainer.swift; sourceTree = "<group>"; };
+		A6FD046D8312740F27770C0E /* Pods-MeraSuperApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraSuperApp.debug.xcconfig"; path = "Target Support Files/Pods-MeraSuperApp/Pods-MeraSuperApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AACB5C8E39A3B7A33601EB21 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B76F2E0F438FE09F43065C68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1D8537C4A9A1585904DD798 /* Pods-MeraSuperApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraSuperApp.release.xcconfig"; path = "Target Support Files/Pods-MeraSuperApp/Pods-MeraSuperApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59E0DE7C7004EBB4D7BF23BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B719AA1A93453FF6232D818 /* Foundation.framework in Frameworks */,
+				A2CDF14C50B7BC40D8AF03A8 /* libPods-MeraSuperApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12F9D78CE11E3C30DA066C6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED3827DDB8B8A632BCB73AB3 /* iOS */,
+				0B63ED1512643AA19AB9FB8F /* libPods-MeraSuperApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		492F57F1AF3E0C3F84F4C7B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1D8537C4A9A1585904DD798 /* Pods-MeraSuperApp.release.xcconfig */,
+				A6FD046D8312740F27770C0E /* Pods-MeraSuperApp.debug.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		56C873EE7C2F39E1AAD541B4 = {
+			isa = PBXGroup;
+			children = (
+				7E54F23FAEEEED614E418B6C /* Products */,
+				12F9D78CE11E3C30DA066C6B /* Frameworks */,
+				7E464BEEB3E5F69D79D3E7D9 /* MeraSuperApp */,
+				492F57F1AF3E0C3F84F4C7B5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7E464BEEB3E5F69D79D3E7D9 /* MeraSuperApp */ = {
+			isa = PBXGroup;
+			children = (
+				5255D2E28F2A21E92D3CB52E /* MeraSuperAppApp.swift */,
+				0B9960EF609EEFFB66B83E73 /* ContentView.swift */,
+				50B100BE939607659BE8FA6B /* RNEngine.swift */,
+				94CC6E84AB44D5A34B7015A9 /* RNMiniAppContainer.swift */,
+				B76F2E0F438FE09F43065C68 /* Info.plist */,
+				AACB5C8E39A3B7A33601EB21 /* LaunchScreen.storyboard */,
+				0251BC9CE05753C9E3C79BA3 /* Assets.xcassets */,
+				2CDADA14BE5E163BCC22D410 /* AppDelegate.swift */,
+			);
+			name = MeraSuperApp;
+			path = MeraSuperApp;
+			sourceTree = "<group>";
+		};
+		7E54F23FAEEEED614E418B6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DC7F19B9454418FC4FCF6A6 /* MeraSuperApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3827DDB8B8A632BCB73AB3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2338F2E4970B90820242A335 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD92E32C35E029DCB488374 /* MeraSuperApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7548C306E5E98F68B12D42A7 /* Build configuration list for PBXNativeTarget "MeraSuperApp" */;
+			buildPhases = (
+				D3F886566EFA8B77FE01E320 /* [CP] Check Pods Manifest.lock */,
+				367FBADF22707D6E48678D3F /* Sources */,
+				59E0DE7C7004EBB4D7BF23BC /* Frameworks */,
+				BF48A77E00F365DE44056740 /* Resources */,
+				CA79DC8578C890401552736D /* Bundle React Native */,
+				644C6411196CD986B14521ED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeraSuperApp;
+			productName = MeraSuperApp;
+			productReference = 7DC7F19B9454418FC4FCF6A6 /* MeraSuperApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3A988A08FA163A90E8762DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 41CC2721D5B39788FC50CD47 /* Build configuration list for PBXProject "MeraSuperApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56C873EE7C2F39E1AAD541B4;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7E54F23FAEEEED614E418B6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AD92E32C35E029DCB488374 /* MeraSuperApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF48A77E00F365DE44056740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD11E12D849C1F04EFF3DCC4 /* LaunchScreen.storyboard in Resources */,
+				0BE02C9AFBCF32ED2C56B22C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		644C6411196CD986B14521ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeraSuperApp/Pods-MeraSuperApp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/RCTI18nStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCTI18nStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeraSuperApp/Pods-MeraSuperApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA79DC8578C890401552736D /* Bundle React Native */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nexport RCT_METRO_PORT=8081\nexport REACT_NATIVE_DIR=\"$SRCROOT/../rn/node_modules/react-native\"\nexport PROJECT_ROOT=\"$SRCROOT/../rn\"\n$SRCROOT/../rn/node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		D3F886566EFA8B77FE01E320 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeraSuperApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		367FBADF22707D6E48678D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A04134FBE80645F3BD3F9D9 /* MeraSuperAppApp.swift in Sources */,
+				7A315203313A17610CE75BC9 /* ContentView.swift in Sources */,
+				EE91D29429BC99E657AD3E7E /* RNEngine.swift in Sources */,
+				36B76DDEAA194A9F56F94ED3 /* RNMiniAppContainer.swift in Sources */,
+				75CD82EFC74D10233A7E467A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3634B355A154F0F260A72CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FD046D8312740F27770C0E /* Pods-MeraSuperApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MeraSuperApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merasuperapp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EE9E8F3143E7338332BC75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				USE_HERMES = false;
+			};
+			name = Debug;
+		};
+		A77C9755B791A833CD7EE60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1D8537C4A9A1585904DD798 /* Pods-MeraSuperApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MeraSuperApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merasuperapp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D79271CD34C688467D15D8B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				USE_HERMES = false;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41CC2721D5B39788FC50CD47 /* Build configuration list for PBXProject "MeraSuperApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE9E8F3143E7338332BC75B /* Debug */,
+				D79271CD34C688467D15D8B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7548C306E5E98F68B12D42A7 /* Build configuration list for PBXNativeTarget "MeraSuperApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77C9755B791A833CD7EE60F /* Release */,
+				3634B355A154F0F260A72CC9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3A988A08FA163A90E8762DC /* Project object */;
+}

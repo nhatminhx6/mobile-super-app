@@ -1,0 +1,69 @@
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("com.facebook.react")
+}
+
+def enableHermes = (project.findProperty("hermesEnabled") ?: "true").toBoolean()
+
+def enableNewArchitecture = (project.findProperty("newArchEnabled") ?: "false").toBoolean()
+
+react {
+    root = file("../../rn")
+    reactNativeDir = file("../../rn/node_modules/react-native")
+    codegenDir = file("../../rn/node_modules/@react-native/codegen")
+    cliFile = file("../../rn/node_modules/react-native/cli.js")
+    entryFile = file("../../rn/index.js")
+}
+
+android {
+    namespace "com.merasuperapp"
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    ndkVersion rootProject.ext.ndkVersion
+
+    defaultConfig {
+        applicationId "com.merasuperapp"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", enableNewArchitecture.toString()
+        buildConfigField "boolean", "IS_HERMES_ENABLED", enableHermes.toString()
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+
+    packagingOptions {
+        pickFirst "**/libc++_shared.so"
+    }
+}
+
+dependencies {
+    implementation("com.facebook.react:react-android")
+
+    if (enableHermes) {
+        implementation("com.facebook.react:hermes-android")
+    } else {
+        implementation("org.webkit:android-jsc:+")
+    }
+
+    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("com.google.android.material:material:1.11.0")
+}

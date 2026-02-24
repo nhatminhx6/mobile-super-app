@@ -1,0 +1,20 @@
+# Node
+node_modules/
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+DerivedData/
+
+# Misc
+*.log
+.DS_Store
